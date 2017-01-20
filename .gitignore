@@ -1,0 +1,52 @@
+resources/fonts/Icon54.*
+############
+# Sencha #
+############
+
+#webstorm
+.idea
+
+temp/
+/build/
+.architect
+.project
+#.sencha/ #looks like stuff inside is needed for the package build process and is not dynamically created by cmd on each build
+.sass-cache/
+.sencha_backup/
+#yes, exclude ext framework
+ext/
+#yes, exclude touch framework
+touch/
+temp/
+build/
+
+#new in 6
+modern.json
+classic.json
+classic.jsonp
+modern.jsonp
+
+bootstrap.css
+bootstrap.js
+bootstrap.json
+bootstrap.jsonp
+sass/example/bootstrap.css
+sass/example/bootstrap.js
+sass/example/bootstrap.json
+sass/example/example.css
+sass/example/bootstrap.jsonp
+
+*slicer-temp*
+gwt-unitCache
+
+#merge backup files
+*.orig
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini

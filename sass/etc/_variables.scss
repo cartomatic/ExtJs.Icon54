@@ -1,0 +1,27 @@
+//# fashion warn -elevation
+
+// Variables
+// --------------------------
+$icon54-font-family: 'Icon54';
+$icon54-font-css-prefix: 'i54';
+$icon54-font-path:        "../fonts" !default;
+$icon54-font-size-base:   14px !default;
+$icon54-line-height-base: 1 !default;
+//$icon54-font-path:        "//some.font.url/fonts" !default; // for referencing Bootstrap CDN font files directly
+$icon54-css-prefix:       $icon54-font-css-prefix !default;
+$icon54-font-version:          "1.0.0" !default;
+$icon54-border-color:     #eee !default;
+$icon54-font-inverse:          #fff !default;
+$icon54-font-li-width:         (30em / 14) !default;
+
+
+/*
+here go vars with font codes;
+note: if u use icomoon.com generated fonts then you will find then in style css.
+basically they can be used in the _icons.scss instead of providing font codes directly
+this way you can declare aliases using same font code var
+*/
+$icon54-var-israel: "\e900";
+
+
+//# fashion warn +elevation

@@ -1,0 +1,54 @@
+{
+    "namespace": "Icon54",
+
+    "name": "icon-54",
+    "type": "code",
+
+    "framework": "ext",
+    "toolkit": "classic",
+    "theme": "theme-neptune",
+    //"requires": [
+    //    ...
+    //],
+
+    "creator": "Cartomatic",
+    "summary": "Package wrapper for Icon54",
+    "detailedDescription": "Sencha Cmd package wrapper for Icon54 (https://icon54.com/)",
+
+    "version": "6.2.0.981",
+    "compatVersion": "4.3.0",
+    "format": "1",
+
+    "output": "${framework.dir}/build/packages/${package.name}",
+    "local": true,
+
+    "resource": {
+        "paths": ""
+    },
+
+    "resources": [
+        {
+            "path": "${package.dir}/resources",
+            "output": "shared"
+        }
+    ],
+
+    "sass": {
+        "namespace": "Icon54",
+
+        "etc": "${package.dir}/sass/etc/all.scss",
+
+        "var": "${package.dir}/sass/var",
+
+        "src": [
+            "${package.dir}/sass/src",
+            "${package.dir}/sass/src/all.scss"
+        ]
+    },
+
+    "classpath": "${package.dir}/src",
+
+    "overrides": "${package.dir}/overrides",
+
+    "slicer": null
+}

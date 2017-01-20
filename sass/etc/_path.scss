@@ -1,0 +1,18 @@
+/* FONT PATH
+ * -------------------------- */
+
+//# fashion -inline
+@font-face {
+  font-family: #{$icon54-font-family};
+  //src: url('#{$icon54-font-path}/Icon54.eot?v=#{$icon54-font-version}');
+  //# fashion +inline:eot
+  //# fashion +inline:ttf
+  src: url('#{$icon54-font-path}/Icon54.eot?#iefix&v=#{$icon54-font-version}') format('embedded-opentype'),
+    //url('#{$icon54-font-path}/Icon54.woff2?v=#{$icon54-font-version}') format('woff2'),
+    url('#{$icon54-font-path}/Icon54.woff?v=#{$icon54-font-version}') format('woff'),
+    url('#{$icon54-font-path}/Icon54.ttf?v=#{$icon54-font-version}') format('truetype'),
+    url('#{$icon54-font-path}/Icon54.svg?v=#{$icon54-font-version}#Icon54regular') format('svg');
+//  src: url('#{$icon54-font-path}/Icon54.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
