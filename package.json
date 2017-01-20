@@ -12,8 +12,8 @@
     //],
 
     "creator": "Cartomatic",
-    "summary": "Package wrapper for Icon54",
-    "detailedDescription": "Sencha Cmd package wrapper for Icon54 (https://icon54.com/)",
+    "summary": "Package wrapper for Icon54 (1000 icons v2)",
+    "detailedDescription": "Sencha Cmd package wrapper for Icon54 (1000 icons v2) (https://icon54.com/)",
 
     "version": "6.2.0.981",
     "compatVersion": "4.3.0",
